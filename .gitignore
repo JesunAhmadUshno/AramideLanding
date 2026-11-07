@@ -1,0 +1,5 @@
+site/node_modules/
+site/dist/
+site/.rubric/
+site/public/landing/
+site/src/data/
