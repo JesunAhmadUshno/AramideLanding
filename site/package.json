@@ -1,0 +1,19 @@
+{
+  "name": "aramide-landing-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/extract.mjs && vite",
+    "build": "node scripts/extract.mjs && node src/audit.check.mjs && vite build",
+    "test": "node src/audit.check.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "6.4.5"
+  }
+}
