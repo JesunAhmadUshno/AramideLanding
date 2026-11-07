@@ -21,6 +21,7 @@ const toggleNav = () => {
     
     // Burger Animation
     burger.classList.toggle('toggle');
+    burger.setAttribute('aria-expanded', nav.classList.contains('nav-active'));
 }
 
 burger.addEventListener('click', () => {

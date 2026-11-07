@@ -75,9 +75,13 @@ nav {
 .burger {
     display: none;
     cursor: pointer;
+    background: none;
+    border: 0;
+    padding: 0;
 }
 
-.burger div {
+.burger span {
+    display: block;
     width: 25px;
     height: 3px;
     background-color: var(--dark);
